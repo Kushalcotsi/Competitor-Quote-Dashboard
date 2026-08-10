@@ -3,6 +3,9 @@ import QuotesTable from '../components/QuotesTable';
 import StateCoverage from '../components/StateCoverage';
 import KeyFindings from '../components/KeyFindings';
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 export default async function Home(props) {
   const searchParams = await props.searchParams;
   const activeTab = searchParams?.tab || 'comparison';

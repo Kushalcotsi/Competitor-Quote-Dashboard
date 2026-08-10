@@ -67,7 +67,7 @@ export default async function QuotesTable() {
           <div><label>Search</label><input placeholder="Search..." /></div>
           <button className="btn secondary">Reset</button>
         </div>
-        <div className="note"><b>Database Connected:</b> Data is being pulled live from the <code>core</code> schema.</div>
+        {/* <div className="note"><b>Database Connected:</b> Data is being pulled live from the <code>core</code> schema.</div> */}
       </div>
 
       <div className="panel">
