@@ -6,15 +6,15 @@ export default async function QuotesTable() {
       qli.category,
       qli.subcategory,
       q.delivery_state,
-      qli.unit_price,
+      qli.extended_price as unit_price,
       qli.billing_cycle,
       q.lease_term,
       q.delivery_cost,
       q.pickup_cost,
       q.estimated_delivery_days,
       q.notes
-    FROM core.quote_line_items qli
-    JOIN core.quotes q ON qli.quote_id = q.quote_id
+    FROM quote_line_items qli
+    JOIN quotes q ON qli.quote_id = q.quote_id
     ORDER BY qli.category ASC, qli.subcategory ASC
   `);
 

@@ -9,10 +9,10 @@ export default async function StateCoverage() {
       q.delivery_city,
       qli.category,
       qli.subcategory,
-      qli.unit_price as rate
-    FROM core.quotes q
-    JOIN core.competitors c ON q.company_id = c.competitor_id
-    JOIN core.quote_line_items qli ON q.quote_id = qli.quote_id
+      qli.extended_price as rate
+    FROM quotes q
+    JOIN companies c ON q.company_id = c.company_id
+    JOIN quote_line_items qli ON q.quote_id = qli.quote_id
     ORDER BY q.delivery_state ASC
   `);
 
