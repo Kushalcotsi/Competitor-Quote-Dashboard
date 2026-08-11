@@ -1,6 +1,7 @@
 import { query } from '../lib/db';
 import React from 'react';
 import UpdateInsightsButton from './UpdateInsightsButton';
+import ClientDate from './ClientDate';
 
 export default async function KeyFindings() {
   const result = await query(`
@@ -38,7 +39,9 @@ export default async function KeyFindings() {
           <div style={{ textAlign: 'right', display: 'flex', alignItems: 'center', gap: '24px' }}>
             <div style={{ textAlign: 'right' }}>
               <small>Last Generated</small>
-              <div style={{ color: 'var(--text-muted)', fontWeight: 500, marginTop: 4 }}>{date}</div>
+              <div style={{ color: 'var(--text-muted)', fontWeight: 500, marginTop: 4 }}>
+                <ClientDate dateString={row.created_at.toISOString()} />
+              </div>
             </div>
             <UpdateInsightsButton />
           </div>
