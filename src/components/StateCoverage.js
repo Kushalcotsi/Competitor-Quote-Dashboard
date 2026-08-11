@@ -1,6 +1,38 @@
-import { query } from '../lib/db';
+import { query, getCachedDistinct } from '../lib/db';
+import React from 'react';
+import StateFilters from './StateFilters';
+import ExportButtons from './ExportButtons';
 
-export default async function StateCoverage() {
+export default async function StateCoverage({ searchParams }) {
+  const state = searchParams?.state || '';
+  const competitor = searchParams?.competitor || '';
+  const category = searchParams?.category || '';
+  const search = searchParams?.search || '';
+
+  const conditions = [];
+  const params = [];
+  let paramIndex = 1;
+
+  if (state) {
+    conditions.push(`q.delivery_state = $${paramIndex++}`);
+    params.push(state);
+  }
+  if (competitor) {
+    conditions.push(`c.company_name = $${paramIndex++}`);
+    params.push(competitor);
+  }
+  if (category) {
+    conditions.push(`qli.category = $${paramIndex++}`);
+    params.push(category);
+  }
+  if (search) {
+    conditions.push(`(q.quote_number ILIKE $${paramIndex} OR q.delivery_city ILIKE $${paramIndex} OR qli.category ILIKE $${paramIndex} OR qli.subcategory ILIKE $${paramIndex})`);
+    params.push(`%${search}%`);
+    paramIndex++;
+  }
+
+  const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+
   const result = await query(`
     SELECT 
       c.company_name as competitor,
@@ -13,8 +45,9 @@ export default async function StateCoverage() {
     FROM quotes q
     JOIN companies c ON q.company_id = c.company_id
     JOIN quote_line_items qli ON q.quote_id = qli.quote_id
+    ${whereClause}
     ORDER BY q.delivery_state ASC
-  `);
+  `, params);
 
   const rows = result.rows;
 
@@ -28,9 +61,12 @@ export default async function StateCoverage() {
   const sortedStates = Object.keys(stateCounts).map(s => ({state: s, count: stateCounts[s]})).sort((a,b) => b.count - a.count);
   const maxCount = sortedStates.length ? sortedStates[0].count : 1;
 
-  const uniqueStates = [...new Set(rows.map(r => r.delivery_state).filter(Boolean))].sort();
-  const uniqueCompetitors = [...new Set(rows.map(r => r.competitor).filter(Boolean))].sort();
-  const uniqueCategories = [...new Set(rows.map(r => r.category).filter(Boolean))].sort();
+  // Fetch unique filter options independently from in-memory cache
+  const [uniqueStates, uniqueCompetitors, uniqueCategories] = await Promise.all([
+    getCachedDistinct('delivery_state', 'quotes'),
+    getCachedDistinct('company_name', 'companies'),
+    getCachedDistinct('category', 'quote_line_items')
+  ]);
 
   return (
     <section id="states" className="tabpanel">
@@ -42,32 +78,11 @@ export default async function StateCoverage() {
       </div>
 
       <div className="panel filters">
-        <div className="stategrid">
-          <div>
-            <label>Delivery State</label>
-            <select>
-              <option>All states</option>
-              {uniqueStates.map(s => <option key={s} value={s}>{s}</option>)}
-            </select>
-          </div>
-          <div>
-            <label>Competitor</label>
-            <select>
-              <option>All competitors</option>
-              {uniqueCompetitors.map(c => <option key={c} value={c}>{c}</option>)}
-            </select>
-          </div>
-          <div>
-            <label>Category</label>
-            <select>
-              <option>All categories</option>
-              {uniqueCategories.map(c => <option key={c} value={c}>{c}</option>)}
-            </select>
-          </div>
-          <div><label>Search</label><input placeholder="Search..." /></div>
-          <button className="btn secondary">Reset</button>
-          <button className="btn primary">Export CSV</button>
-        </div>
+        <StateFilters 
+          uniqueStates={uniqueStates} 
+          uniqueCompetitors={uniqueCompetitors} 
+          uniqueCategories={uniqueCategories} 
+        />
       </div>
 
       <div className="state-layout">
@@ -87,9 +102,10 @@ export default async function StateCoverage() {
         <div className="panel">
           <div className="toolbar">
             <span>{rows.length} quote records</span>
+            <ExportButtons tableId="stateTable" filename="State_Coverage" />
           </div>
           <div className="tablewrap">
-            <table className="state-table">
+            <table id="stateTable" className="state-table">
               <thead>
                 <tr>
                   <th>Competitor</th>
@@ -113,6 +129,9 @@ export default async function StateCoverage() {
                     <td>{r.rate ? `$${Number(r.rate).toFixed(2)}` : '—'}</td>
                   </tr>
                 ))}
+                {rows.length === 0 && (
+                  <tr><td colSpan="7" style={{padding:50, textAlign:'center'}}>No quote records match the selected filters.</td></tr>
+                )}
               </tbody>
             </table>
           </div>

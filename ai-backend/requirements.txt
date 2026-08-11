@@ -1,0 +1,7 @@
+boto3
+pdf2image
+pillow
+psycopg
+psycopg2
+msal 
+requests

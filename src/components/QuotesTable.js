@@ -1,6 +1,39 @@
-import { query } from '../lib/db';
+import { query, getCachedDistinct } from '../lib/db';
+import React from 'react';
+import QuotesFilters from './QuotesFilters';
+import ExportButtons from './ExportButtons';
 
-export default async function QuotesTable() {
+export default async function QuotesTable({ searchParams }) {
+  // Parse query parameters for server-side filtering
+  const state = searchParams?.state || '';
+  const category = searchParams?.category || '';
+  const subcategory = searchParams?.subcategory || '';
+  const search = searchParams?.search || '';
+
+  const conditions = [];
+  const params = [];
+  let paramIndex = 1;
+
+  if (state) {
+    conditions.push(`q.delivery_state = $${paramIndex++}`);
+    params.push(state);
+  }
+  if (category) {
+    conditions.push(`qli.category = $${paramIndex++}`);
+    params.push(category);
+  }
+  if (subcategory) {
+    conditions.push(`qli.subcategory = $${paramIndex++}`);
+    params.push(subcategory);
+  }
+  if (search) {
+    conditions.push(`(q.notes ILIKE $${paramIndex} OR qli.category ILIKE $${paramIndex} OR qli.subcategory ILIKE $${paramIndex} OR q.delivery_state ILIKE $${paramIndex})`);
+    params.push(`%${search}%`);
+    paramIndex++;
+  }
+
+  const whereClause = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+
   const result = await query(`
     SELECT 
       qli.category,
@@ -15,8 +48,9 @@ export default async function QuotesTable() {
       q.notes
     FROM quote_line_items qli
     JOIN quotes q ON qli.quote_id = q.quote_id
+    ${whereClause}
     ORDER BY qli.category ASC, qli.subcategory ASC
-  `);
+  `, params);
 
   const rows = result.rows;
 
@@ -28,9 +62,12 @@ export default async function QuotesTable() {
     categories[cat].push(r);
   });
 
-  const uniqueStates = [...new Set(rows.map(r => r.delivery_state).filter(Boolean))].sort();
-  const uniqueCategories = [...new Set(rows.map(r => r.category).filter(Boolean))].sort();
-  const uniqueSubcategories = [...new Set(rows.map(r => r.subcategory).filter(Boolean))].sort();
+  // Fetch unique filter options independently from in-memory cache
+  const [uniqueStates, uniqueCategories, uniqueSubcategories] = await Promise.all([
+    getCachedDistinct('delivery_state', 'quotes'),
+    getCachedDistinct('category', 'quote_line_items'),
+    getCachedDistinct('subcategory', 'quote_line_items')
+  ]);
 
   return (
     <section id="comparison" className="tabpanel">
@@ -42,38 +79,20 @@ export default async function QuotesTable() {
       </div>
 
       <div className="panel filters">
-        <div className="grid">
-          <div>
-            <label>State</label>
-            <select>
-              <option>All states</option>
-              {uniqueStates.map(s => <option key={s} value={s}>{s}</option>)}
-            </select>
-          </div>
-          <div>
-            <label>Category</label>
-            <select>
-              <option>All categories</option>
-              {uniqueCategories.map(c => <option key={c} value={c}>{c}</option>)}
-            </select>
-          </div>
-          <div>
-            <label>Subcategory</label>
-            <select>
-              <option>All subcategories</option>
-              {uniqueSubcategories.map(s => <option key={s} value={s}>{s}</option>)}
-            </select>
-          </div>
-          <div><label>Search</label><input placeholder="Search..." /></div>
-          <button className="btn secondary">Reset</button>
-        </div>
-        {/* <div className="note"><b>Database Connected:</b> Data is being pulled live from the <code>core</code> schema.</div> */}
+        <QuotesFilters 
+          uniqueStates={uniqueStates} 
+          uniqueCategories={uniqueCategories} 
+          uniqueSubcategories={uniqueSubcategories} 
+        />
       </div>
 
       <div className="panel">
         <div className="toolbar">
-          <span>{rows.length} rows</span>
-          <span className="muted">Product hierarchy is visually nested by category.</span>
+          <div>
+            <span>{rows.length} rows</span>
+            <span className="muted" style={{ marginLeft: 12 }}>Product hierarchy is visually nested by category.</span>
+          </div>
+          <ExportButtons tableId="quoteTable" filename="Quotes_Comparison" />
         </div>
         <div className="tablewrap">
           <table id="quoteTable">
@@ -123,7 +142,7 @@ export default async function QuotesTable() {
                 );
               })}
               {rows.length === 0 && (
-                <tr><td colSpan="9" style={{padding:50, textAlign:'center'}}>No records found in core schema.</td></tr>
+                <tr><td colSpan="9" style={{padding:50, textAlign:'center'}}>No quote records match the selected filters.</td></tr>
               )}
             </tbody>
           </table>
@@ -132,6 +151,3 @@ export default async function QuotesTable() {
     </section>
   );
 }
-
-// Need to import React for React.Fragment
-import React from 'react';

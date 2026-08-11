@@ -1,0 +1,4544 @@
+{
+  "source_file": "inv2.PDF",
+  "api": "AnalyzeExpense",
+  "page_count": 2,
+  "summary_fields": [
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS",
+      "field_confidence": 99.99014282226562,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING INC\n1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 99.88597106933594,
+      "value_bb": {
+        "topleft_x": 0.05712689831852913,
+        "topleft_y": 0.20048202574253082,
+        "height": 0.04181024059653282,
+        "width": 0.28145670890808105
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "74008994-7a7e-4778-919e-11dcd3d87b23"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STREET",
+      "field_confidence": 99.99014282226562,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "1006 INDUSTRIAL BLVD",
+      "value_confidence": 99.94706726074219,
+      "value_bb": {
+        "topleft_x": 0.05773017555475235,
+        "topleft_y": 0.21551960706710815,
+        "height": 0.011642948724329472,
+        "width": 0.2343483716249466
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "74008994-7a7e-4778-919e-11dcd3d87b23"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CITY",
+      "field_confidence": 99.99014282226562,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "LOUISVILLE",
+      "value_confidence": 99.961181640625,
+      "value_bb": {
+        "topleft_x": 0.05670209974050522,
+        "topleft_y": 0.23155628144741058,
+        "height": 0.010386147536337376,
+        "width": 0.11748912930488586
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "74008994-7a7e-4778-919e-11dcd3d87b23"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STATE",
+      "field_confidence": 99.99014282226562,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "KY",
+      "value_confidence": 99.77224731445312,
+      "value_bb": {
+        "topleft_x": 0.18597495555877686,
+        "topleft_y": 0.23082904517650604,
+        "height": 0.010898318141698837,
+        "width": 0.023407936096191406
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "74008994-7a7e-4778-919e-11dcd3d87b23"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ZIP_CODE",
+      "field_confidence": 99.99014282226562,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "40219-1800",
+      "value_confidence": 99.34977722167969,
+      "value_bb": {
+        "topleft_x": 0.2230529487133026,
+        "topleft_y": 0.23090796172618866,
+        "height": 0.011189497075974941,
+        "width": 0.11547918617725372
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "74008994-7a7e-4778-919e-11dcd3d87b23"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "NAME",
+      "field_confidence": 99.96082305908203,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING INC",
+      "value_confidence": 99.93124389648438,
+      "value_bb": {
+        "topleft_x": 0.057149190455675125,
+        "topleft_y": 0.2005663514137268,
+        "height": 0.011421727947890759,
+        "width": 0.2226293385028839
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "74008994-7a7e-4778-919e-11dcd3d87b23"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS_BLOCK",
+      "field_confidence": 99.96082305908203,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 99.802001953125,
+      "value_bb": {
+        "topleft_x": 0.05670209974050522,
+        "topleft_y": 0.21551747620105743,
+        "height": 0.026774799451231956,
+        "width": 0.2818557620048523
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "74008994-7a7e-4778-919e-11dcd3d87b23"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS",
+      "field_confidence": 96.54296875,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING\n1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 96.37955474853516,
+      "value_bb": {
+        "topleft_x": 0.05655916780233383,
+        "topleft_y": 0.09921173751354218,
+        "height": 0.041289228945970535,
+        "width": 0.28109291195869446
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "455bd7db-16f7-481f-9f37-db6e17ee0f3a"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STREET",
+      "field_confidence": 96.54296875,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "1006 INDUSTRIAL BLVD",
+      "value_confidence": 99.9771728515625,
+      "value_bb": {
+        "topleft_x": 0.0579063855111599,
+        "topleft_y": 0.11327289044857025,
+        "height": 0.011899883858859539,
+        "width": 0.23399624228477478
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "455bd7db-16f7-481f-9f37-db6e17ee0f3a"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CITY",
+      "field_confidence": 96.54296875,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "LOUISVILLE",
+      "value_confidence": 99.8902587890625,
+      "value_bb": {
+        "topleft_x": 0.05687796697020531,
+        "topleft_y": 0.12930937111377716,
+        "height": 0.010844336822628975,
+        "width": 0.11755522340536118
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "455bd7db-16f7-481f-9f37-db6e17ee0f3a"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STATE",
+      "field_confidence": 96.54296875,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "KY",
+      "value_confidence": 99.76123809814453,
+      "value_bb": {
+        "topleft_x": 0.18615050613880157,
+        "topleft_y": 0.12958447635173798,
+        "height": 0.010097192600369453,
+        "width": 0.02313961647450924
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "455bd7db-16f7-481f-9f37-db6e17ee0f3a"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ZIP_CODE",
+      "field_confidence": 96.54296875,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "40219-1800",
+      "value_confidence": 98.768798828125,
+      "value_bb": {
+        "topleft_x": 0.2222263365983963,
+        "topleft_y": 0.12865884602069855,
+        "height": 0.011282283812761307,
+        "width": 0.11503637582063675
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "455bd7db-16f7-481f-9f37-db6e17ee0f3a"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "NAME",
+      "field_confidence": 99.7686538696289,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING",
+      "value_confidence": 99.74579620361328,
+      "value_bb": {
+        "topleft_x": 0.05719590559601784,
+        "topleft_y": 0.09836455434560776,
+        "height": 0.011383630335330963,
+        "width": 0.1758563220500946
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "455bd7db-16f7-481f-9f37-db6e17ee0f3a"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS_BLOCK",
+      "field_confidence": 99.7686538696289,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 99.69775390625,
+      "value_bb": {
+        "topleft_x": 0.05687796697020531,
+        "topleft_y": 0.11327075958251953,
+        "height": 0.027229484170675278,
+        "width": 0.2804104685783386
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "455bd7db-16f7-481f-9f37-db6e17ee0f3a"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS",
+      "field_confidence": 83.29553985595703,
+      "label": "BRANCH AA8",
+      "label_confidence": 83.37381744384766,
+      "label_bb": {
+        "topleft_x": 0.04234993830323219,
+        "topleft_y": 0.0468452014029026,
+        "height": 0.0070810383185744286,
+        "width": 0.06914437562227249
+      },
+      "value": "4024 E BLUE LICK RD\nLOUISVILLE KY 40229-6059",
+      "value_confidence": 83.12006378173828,
+      "value_bb": {
+        "topleft_x": 0.042260222136974335,
+        "topleft_y": 0.05416105315089226,
+        "height": 0.01853620819747448,
+        "width": 0.16541074216365814
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "1e355351-4a2a-455a-a8b9-93a1cc0bd0b8"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STREET",
+      "field_confidence": 83.29553985595703,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "4024 E BLUE LICK RD",
+      "value_confidence": 99.69194793701172,
+      "value_bb": {
+        "topleft_x": 0.04298388212919235,
+        "topleft_y": 0.05409875512123108,
+        "height": 0.007734884507954121,
+        "width": 0.13030599057674408
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "1e355351-4a2a-455a-a8b9-93a1cc0bd0b8"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CITY",
+      "field_confidence": 83.29553985595703,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "LOUISVILLE",
+      "value_confidence": 99.96857452392578,
+      "value_bb": {
+        "topleft_x": 0.041968945413827896,
+        "topleft_y": 0.0621158741414547,
+        "height": 0.007013240829110146,
+        "width": 0.07028666138648987
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "1e355351-4a2a-455a-a8b9-93a1cc0bd0b8"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STATE",
+      "field_confidence": 83.29553985595703,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "KY",
+      "value_confidence": 99.75215911865234,
+      "value_bb": {
+        "topleft_x": 0.11712673306465149,
+        "topleft_y": 0.06227579340338707,
+        "height": 0.006761414930224419,
+        "width": 0.014738235622644424
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "1e355351-4a2a-455a-a8b9-93a1cc0bd0b8"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ZIP_CODE",
+      "field_confidence": 83.29553985595703,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "40229-6059",
+      "value_confidence": 98.73152160644531,
+      "value_bb": {
+        "topleft_x": 0.13817057013511658,
+        "topleft_y": 0.06131816282868385,
+        "height": 0.008040960878133774,
+        "width": 0.0691303163766861
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "1e355351-4a2a-455a-a8b9-93a1cc0bd0b8"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS_BLOCK",
+      "field_confidence": 83.29553985595703,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "4024 E BLUE LICK RD\nLOUISVILLE KY 40229-6059",
+      "value_confidence": 99.60136413574219,
+      "value_bb": {
+        "topleft_x": 0.041968896985054016,
+        "topleft_y": 0.05409662425518036,
+        "height": 0.015262500382959843,
+        "width": 0.16534405946731567
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "1e355351-4a2a-455a-a8b9-93a1cc0bd0b8"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "NAME",
+      "field_confidence": 99.08526611328125,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "United Rentals",
+      "value_confidence": 98.65003204345703,
+      "value_bb": {
+        "topleft_x": 0.045526813715696335,
+        "topleft_y": 0.015016498975455761,
+        "height": 0.019700180739164352,
+        "width": 0.24173292517662048
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "b0bdbb2d-b7da-49d3-b071-e2184ae57e73"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "AMOUNT_PAID",
+      "field_confidence": 61.819786071777344,
+      "label": "Agreement Subtotal:",
+      "label_confidence": 61.791080474853516,
+      "label_bb": {
+        "topleft_x": 0.6870087385177612,
+        "topleft_y": 0.697851300239563,
+        "height": 0.009984320029616356,
+        "width": 0.14787110686302185
+      },
+      "value": "",
+      "value_confidence": 61.791080474853516,
+      "value_bb": null,
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CUSTOMER_NUMBER",
+      "field_confidence": 99.24234771728516,
+      "label": "Customer # :",
+      "label_confidence": 93.80888366699219,
+      "label_bb": {
+        "topleft_x": 0.593258798122406,
+        "topleft_y": 0.07370294630527496,
+        "height": 0.009980297647416592,
+        "width": 0.13934877514839172
+      },
+      "value": "908478",
+      "value_confidence": 99.14462280273438,
+      "value_bb": {
+        "topleft_x": 0.7406486868858337,
+        "topleft_y": 0.07378759235143661,
+        "height": 0.009089584462344646,
+        "width": 0.051571253687143326
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CUSTOMER_NUMBER",
+      "field_confidence": 74.80957794189453,
+      "label": "Customer Job ID :",
+      "label_confidence": 60.62842559814453,
+      "label_bb": {
+        "topleft_x": 0.5927569270133972,
+        "topleft_y": 0.13438604772090912,
+        "height": 0.009253536351025105,
+        "width": 0.1395532190799713
+      },
+      "value": "",
+      "value_confidence": 60.62842559814453,
+      "value_bb": null,
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "INVOICE_RECEIPT_ID",
+      "field_confidence": 52.66383361816406,
+      "label": "RENTAL QUOTE",
+      "label_confidence": 52.076866149902344,
+      "label_bb": {
+        "topleft_x": 0.6893518567085266,
+        "topleft_y": 0.014847734943032265,
+        "height": 0.016782764345407486,
+        "width": 0.18200623989105225
+      },
+      "value": "# 260536114",
+      "value_confidence": 51.07821273803711,
+      "value_bb": {
+        "topleft_x": 0.7078502178192139,
+        "topleft_y": 0.05444619804620743,
+        "height": 0.014939735643565655,
+        "width": 0.14407259225845337
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "PO_NUMBER",
+      "field_confidence": 94.60444641113281,
+      "label": "P.O. # :",
+      "label_confidence": 80.21090698242188,
+      "label_bb": {
+        "topleft_x": 0.5935688614845276,
+        "topleft_y": 0.14455834031105042,
+        "height": 0.009841754101216793,
+        "width": 0.139016792178154
+      },
+      "value": "TBD",
+      "value_confidence": 94.2982406616211,
+      "value_bb": {
+        "topleft_x": 0.7399385571479797,
+        "topleft_y": 0.14524497091770172,
+        "height": 0.007914628833532333,
+        "width": 0.026465773582458496
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_ADDRESS",
+      "field_confidence": 99.99014282226562,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING INC\n1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 99.88597106933594,
+      "value_bb": {
+        "topleft_x": 0.05712689831852913,
+        "topleft_y": 0.20048202574253082,
+        "height": 0.04181024059653282,
+        "width": 0.28145670890808105
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_ADDRESS",
+      "field_confidence": 96.54296875,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING\n1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 96.37955474853516,
+      "value_bb": {
+        "topleft_x": 0.05655916780233383,
+        "topleft_y": 0.09921173751354218,
+        "height": 0.041289228945970535,
+        "width": 0.28109291195869446
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_NAME",
+      "field_confidence": 99.96082305908203,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING INC",
+      "value_confidence": 99.93124389648438,
+      "value_bb": {
+        "topleft_x": 0.057149190455675125,
+        "topleft_y": 0.2005663514137268,
+        "height": 0.011421727947890759,
+        "width": 0.2226293385028839
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_NAME",
+      "field_confidence": 99.7686538696289,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING",
+      "value_confidence": 99.74579620361328,
+      "value_bb": {
+        "topleft_x": 0.05719590559601784,
+        "topleft_y": 0.09836455434560776,
+        "height": 0.011383630335330963,
+        "width": 0.1758563220500946
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_PHONE",
+      "field_confidence": 52.498783111572266,
+      "label": "Office:",
+      "label_confidence": 52.38420867919922,
+      "label_bb": {
+        "topleft_x": 0.056165169924497604,
+        "topleft_y": 0.15772020816802979,
+        "height": 0.011736814863979816,
+        "width": 0.07941663265228271
+      },
+      "value": "502-964-6500",
+      "value_confidence": 52.3357048034668,
+      "value_bb": {
+        "topleft_x": 0.15180949866771698,
+        "topleft_y": 0.15765981376171112,
+        "height": 0.011826221831142902,
+        "width": 0.1397460550069809
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_PHONE",
+      "field_confidence": 86.42244720458984,
+      "label": "CELL#:",
+      "label_confidence": 86.3389892578125,
+      "label_bb": {
+        "topleft_x": 0.09082848578691483,
+        "topleft_y": 0.7684189677238464,
+        "height": 0.0082218823954463,
+        "width": 0.04565476253628731
+      },
+      "value": "502-492-7405",
+      "value_confidence": 85.9608383178711,
+      "value_bb": {
+        "topleft_x": 0.1465713530778885,
+        "topleft_y": 0.7685437798500061,
+        "height": 0.008152002468705177,
+        "width": 0.09347277134656906
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "SUBTOTAL",
+      "field_confidence": 99.14275360107422,
+      "label": "Rental Subtotal:",
+      "label_confidence": 99.09416961669922,
+      "label_bb": {
+        "topleft_x": 0.7110725045204163,
+        "topleft_y": 0.3947751224040985,
+        "height": 0.008401897735893726,
+        "width": 0.12385314702987671
+      },
+      "value": "57,837.96",
+      "value_confidence": 99.10953521728516,
+      "value_bb": {
+        "topleft_x": 0.8839694857597351,
+        "topleft_y": 0.3948458731174469,
+        "height": 0.008910882286727428,
+        "width": 0.07072219252586365
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "SUBTOTAL",
+      "field_confidence": 99.9625244140625,
+      "label": "Sales/Misc Subtotal:",
+      "label_confidence": 99.71945190429688,
+      "label_bb": {
+        "topleft_x": 0.679776132106781,
+        "topleft_y": 0.6771862506866455,
+        "height": 0.008841779083013535,
+        "width": 0.15538981556892395
+      },
+      "value": "31,150.00",
+      "value_confidence": 99.93448638916016,
+      "value_bb": {
+        "topleft_x": 0.8843969106674194,
+        "topleft_y": 0.6775569319725037,
+        "height": 0.008948850445449352,
+        "width": 0.07006203383207321
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "TAX",
+      "field_confidence": 99.93928527832031,
+      "label": "Tax:",
+      "label_confidence": 96.07640838623047,
+      "label_bb": {
+        "topleft_x": 0.8051173686981201,
+        "topleft_y": 0.7084776163101196,
+        "height": 0.0073983208276331425,
+        "width": 0.02964448183774948
+      },
+      "value": "5,339.28",
+      "value_confidence": 99.85745239257812,
+      "value_bb": {
+        "topleft_x": 0.8920081257820129,
+        "topleft_y": 0.7079188823699951,
+        "height": 0.008770219050347805,
+        "width": 0.062312230467796326
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "TOTAL",
+      "field_confidence": 99.9837417602539,
+      "label": "Estimated Total:",
+      "label_confidence": 99.94713592529297,
+      "label_bb": {
+        "topleft_x": 0.711277961730957,
+        "topleft_y": 0.7179943919181824,
+        "height": 0.008017407730221748,
+        "width": 0.12377718091011047
+      },
+      "value": "94,327.24",
+      "value_confidence": 99.789306640625,
+      "value_bb": {
+        "topleft_x": 0.8841272592544556,
+        "topleft_y": 0.7177504897117615,
+        "height": 0.00905349850654602,
+        "width": 0.06990852952003479
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "VENDOR_ADDRESS",
+      "field_confidence": 83.29553985595703,
+      "label": "BRANCH AA8",
+      "label_confidence": 83.37381744384766,
+      "label_bb": {
+        "topleft_x": 0.04234993830323219,
+        "topleft_y": 0.0468452014029026,
+        "height": 0.0070810383185744286,
+        "width": 0.06914437562227249
+      },
+      "value": "4024 E BLUE LICK RD\nLOUISVILLE KY 40229-6059",
+      "value_confidence": 83.12006378173828,
+      "value_bb": {
+        "topleft_x": 0.042260222136974335,
+        "topleft_y": 0.05416105315089226,
+        "height": 0.01853620819747448,
+        "width": 0.16541074216365814
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "VENDOR_NAME",
+      "field_confidence": 99.08526611328125,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "United Rentals",
+      "value_confidence": 98.65003204345703,
+      "value_bb": {
+        "topleft_x": 0.045526813715696335,
+        "topleft_y": 0.015016498975455761,
+        "height": 0.019700180739164352,
+        "width": 0.24173292517662048
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "VENDOR_PHONE",
+      "field_confidence": 99.89358520507812,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "502-776-9697",
+      "value_confidence": 99.81005096435547,
+      "value_bb": {
+        "topleft_x": 0.04290863871574402,
+        "topleft_y": 0.06892406195402145,
+        "height": 0.007815922610461712,
+        "width": 0.08217603713274002
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "VENDOR_URL",
+      "field_confidence": 79.69707489013672,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "athttps: //www.unitedrentals.com/legal/rental-service-terms-USand which",
+      "value_confidence": 79.63369750976562,
+      "value_bb": {
+        "topleft_x": 0.18304148316383362,
+        "topleft_y": 0.9432080984115601,
+        "height": 0.010322332382202148,
+        "width": 0.3335888087749481
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.65515899658203,
+      "label": "Quote Date :",
+      "label_confidence": 97.65943908691406,
+      "label_bb": {
+        "topleft_x": 0.5932943224906921,
+        "topleft_y": 0.08397597819566727,
+        "height": 0.010320181027054787,
+        "width": 0.13955055177211761
+      },
+      "value": "03/30/26",
+      "value_confidence": 98.5826644897461,
+      "value_bb": {
+        "topleft_x": 0.7406417727470398,
+        "topleft_y": 0.08376631140708923,
+        "height": 0.009532085619866848,
+        "width": 0.06991688907146454
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.59557342529297,
+      "label": "Estimated Out :",
+      "label_confidence": 97.30392456054688,
+      "label_bb": {
+        "topleft_x": 0.5932813286781311,
+        "topleft_y": 0.09404850006103516,
+        "height": 0.008949927054345608,
+        "width": 0.13930931687355042
+      },
+      "value": "04/13/26 04: 00 PM",
+      "value_confidence": 99.3222427368164,
+      "value_bb": {
+        "topleft_x": 0.7409800887107849,
+        "topleft_y": 0.09357500821352005,
+        "height": 0.009724515490233898,
+        "width": 0.15828366577625275
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.7815170288086,
+      "label": "Estimated In :",
+      "label_confidence": 97.58132934570312,
+      "label_bb": {
+        "topleft_x": 0.5932401418685913,
+        "topleft_y": 0.10402470827102661,
+        "height": 0.009350919164717197,
+        "width": 0.13937032222747803
+      },
+      "value": "03/15/27 04: 00 PM",
+      "value_confidence": 99.55712890625,
+      "value_bb": {
+        "topleft_x": 0.740613579750061,
+        "topleft_y": 0.10381505638360977,
+        "height": 0.009864337742328644,
+        "width": 0.15888240933418274
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.81119537353516,
+      "label": "UR Job Loc :",
+      "label_confidence": 98.39811706542969,
+      "label_bb": {
+        "topleft_x": 0.5933129787445068,
+        "topleft_y": 0.11433682590723038,
+        "height": 0.008997002616524696,
+        "width": 0.1393706053495407
+      },
+      "value": "1006 INDUSTRIAL BLVD",
+      "value_confidence": 99.7422866821289,
+      "value_bb": {
+        "topleft_x": 0.7408775687217712,
+        "topleft_y": 0.11433956027030945,
+        "height": 0.008951641619205475,
+        "width": 0.17577992379665375
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.24884796142578,
+      "label": "UR Job # :",
+      "label_confidence": 95.61758422851562,
+      "label_bb": {
+        "topleft_x": 0.5933297872543335,
+        "topleft_y": 0.12431419640779495,
+        "height": 0.009480755776166916,
+        "width": 0.13984209299087524
+      },
+      "value": "7",
+      "value_confidence": 96.80267333984375,
+      "value_bb": {
+        "topleft_x": 0.7410343885421753,
+        "topleft_y": 0.12474886327981949,
+        "height": 0.00785861723124981,
+        "width": 0.006960644852370024
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.55308532714844,
+      "label": "Ordered By :",
+      "label_confidence": 96.32469177246094,
+      "label_bb": {
+        "topleft_x": 0.5932551622390747,
+        "topleft_y": 0.1543213576078415,
+        "height": 0.011057012714445591,
+        "width": 0.13946737349033356
+      },
+      "value": "KYLE",
+      "value_confidence": 99.09406280517578,
+      "value_bb": {
+        "topleft_x": 0.7401834726333618,
+        "topleft_y": 0.15511175990104675,
+        "height": 0.00822873692959547,
+        "width": 0.03499361500144005
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.84793853759766,
+      "label": "Written By :",
+      "label_confidence": 97.85843658447266,
+      "label_bb": {
+        "topleft_x": 0.5930091142654419,
+        "topleft_y": 0.16486269235610962,
+        "height": 0.01098831370472908,
+        "width": 0.13972656428813934
+      },
+      "value": "ALEX KAHN",
+      "value_confidence": 99.3205337524414,
+      "value_bb": {
+        "topleft_x": 0.7397111058235168,
+        "topleft_y": 0.16514690220355988,
+        "height": 0.008672626689076424,
+        "width": 0.07945080101490021
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.86182403564453,
+      "label": "Salesperson :",
+      "label_confidence": 92.88655853271484,
+      "label_bb": {
+        "topleft_x": 0.5936359167098999,
+        "topleft_y": 0.17487886548042297,
+        "height": 0.011179240420460701,
+        "width": 0.13912197947502136
+      },
+      "value": "ALEX KAHN",
+      "value_confidence": 99.75936126708984,
+      "value_bb": {
+        "topleft_x": 0.7393028140068054,
+        "topleft_y": 0.17516764998435974,
+        "height": 0.008596398867666721,
+        "width": 0.07988664507865906
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.97045135498047,
+      "label": "Agreement Subtotal:",
+      "label_confidence": 99.92402648925781,
+      "label_bb": {
+        "topleft_x": 0.6870087385177612,
+        "topleft_y": 0.697851300239563,
+        "height": 0.009984320029616356,
+        "width": 0.14787110686302185
+      },
+      "value": "88,987.96",
+      "value_confidence": 99.88589477539062,
+      "value_bb": {
+        "topleft_x": 0.8842065334320068,
+        "topleft_y": 0.6978856921195984,
+        "height": 0.008714974857866764,
+        "width": 0.07050160318613052
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 76.02359008789062,
+      "label": "COMMENTS/NOTES:",
+      "label_confidence": 75.61726379394531,
+      "label_bb": {
+        "topleft_x": 0.03635239973664284,
+        "topleft_y": 0.7380175590515137,
+        "height": 0.00873875617980957,
+        "width": 0.11513964086771011
+      },
+      "value": "ONSITE CONTACT: KYLE",
+      "value_confidence": 76.0340576171875,
+      "value_bb": {
+        "topleft_x": 0.09011625498533249,
+        "topleft_y": 0.7581406831741333,
+        "height": 0.009152991697192192,
+        "width": 0.3138379156589508
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 97.11474609375,
+      "label": "NOTICE:",
+      "label_confidence": 97.17263793945312,
+      "label_bb": {
+        "topleft_x": 0.04190564900636673,
+        "topleft_y": 0.9355186820030212,
+        "height": 0.007215227000415325,
+        "width": 0.03930934891104698
+      },
+      "value": "NOTICE: This is not a rental agreement. The rental of equipment and any items listed above is subject to availability and subject to the terms and conditions of the Rental and Service\nAgreement, which are available athttps: //www.unitedrentals.com/legal/rental-service-terms-USand which are incorporated herein by reference. A COPY OF THE RENTAL AND SERVICE\nAGREEMENT TERMS ARE AVAILABLE IN PAPER FORM UPON REQUEST.",
+      "value_confidence": 97.06918334960938,
+      "value_bb": {
+        "topleft_x": 0.03798031061887741,
+        "topleft_y": 0.9339061379432678,
+        "height": 0.028663046658039093,
+        "width": 0.8348548412322998
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.9880599975586,
+      "label": "Page:",
+      "label_confidence": 98.72010040283203,
+      "label_bb": {
+        "topleft_x": 0.8447945713996887,
+        "topleft_y": 0.9690161943435669,
+        "height": 0.008718936704099178,
+        "width": 0.032474085688591
+      },
+      "value": "1",
+      "value_confidence": 96.28024291992188,
+      "value_bb": {
+        "topleft_x": 0.8998755216598511,
+        "topleft_y": 0.9692798256874084,
+        "height": 0.0066583785228431225,
+        "width": 0.00584324449300766
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS",
+      "field_confidence": 99.98529052734375,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING INC\n1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 99.88661193847656,
+      "value_bb": {
+        "topleft_x": 0.0568256713449955,
+        "topleft_y": 0.20081672072410583,
+        "height": 0.04140281677246094,
+        "width": 0.2842707931995392
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "6f91b94a-d242-439a-8ce6-369017802e0d"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STREET",
+      "field_confidence": 99.98529052734375,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "1006 INDUSTRIAL BLVD",
+      "value_confidence": 99.97509002685547,
+      "value_bb": {
+        "topleft_x": 0.05713864788413048,
+        "topleft_y": 0.21582219004631042,
+        "height": 0.011059469543397427,
+        "width": 0.2348390519618988
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "6f91b94a-d242-439a-8ce6-369017802e0d"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CITY",
+      "field_confidence": 99.98529052734375,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "LOUISVILLE",
+      "value_confidence": 99.98091125488281,
+      "value_bb": {
+        "topleft_x": 0.056150197982788086,
+        "topleft_y": 0.23082733154296875,
+        "height": 0.01129982154816389,
+        "width": 0.11823365837335587
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "6f91b94a-d242-439a-8ce6-369017802e0d"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STATE",
+      "field_confidence": 99.98529052734375,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "KY",
+      "value_confidence": 99.8927993774414,
+      "value_bb": {
+        "topleft_x": 0.18520580232143402,
+        "topleft_y": 0.2308778017759323,
+        "height": 0.01117518451064825,
+        "width": 0.02446550503373146
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "6f91b94a-d242-439a-8ce6-369017802e0d"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ZIP_CODE",
+      "field_confidence": 99.98529052734375,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "40219-1800",
+      "value_confidence": 99.22430419921875,
+      "value_bb": {
+        "topleft_x": 0.2222229391336441,
+        "topleft_y": 0.23089227080345154,
+        "height": 0.01124495267868042,
+        "width": 0.11887343972921371
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "6f91b94a-d242-439a-8ce6-369017802e0d"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "NAME",
+      "field_confidence": 99.98513793945312,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING INC",
+      "value_confidence": 99.9688491821289,
+      "value_bb": {
+        "topleft_x": 0.05719127506017685,
+        "topleft_y": 0.200712651014328,
+        "height": 0.011136576533317566,
+        "width": 0.2225366234779358
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "6f91b94a-d242-439a-8ce6-369017802e0d"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS_BLOCK",
+      "field_confidence": 99.98513793945312,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 99.82527160644531,
+      "value_bb": {
+        "topleft_x": 0.05613824725151062,
+        "topleft_y": 0.21582180261611938,
+        "height": 0.026370912790298462,
+        "width": 0.2849581837654114
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "6f91b94a-d242-439a-8ce6-369017802e0d"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS",
+      "field_confidence": 97.30610656738281,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING\n1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 97.27547454833984,
+      "value_bb": {
+        "topleft_x": 0.05639073997735977,
+        "topleft_y": 0.09878523647785187,
+        "height": 0.04120323434472084,
+        "width": 0.28366637229919434
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "e5f9e878-96dc-48c5-8c97-2fc64808209f"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STREET",
+      "field_confidence": 97.30610656738281,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "1006 INDUSTRIAL BLVD",
+      "value_confidence": 99.98728942871094,
+      "value_bb": {
+        "topleft_x": 0.05805769935250282,
+        "topleft_y": 0.11378990858793259,
+        "height": 0.010923177003860474,
+        "width": 0.23378562927246094
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "e5f9e878-96dc-48c5-8c97-2fc64808209f"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CITY",
+      "field_confidence": 97.30610656738281,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "LOUISVILLE",
+      "value_confidence": 99.9655990600586,
+      "value_bb": {
+        "topleft_x": 0.056068938225507736,
+        "topleft_y": 0.12879341840744019,
+        "height": 0.011109009385108948,
+        "width": 0.1183803454041481
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "e5f9e878-96dc-48c5-8c97-2fc64808209f"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STATE",
+      "field_confidence": 97.30610656738281,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "KY",
+      "value_confidence": 99.84185791015625,
+      "value_bb": {
+        "topleft_x": 0.1861194223165512,
+        "topleft_y": 0.12884168326854706,
+        "height": 0.010789523832499981,
+        "width": 0.023262955248355865
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "e5f9e878-96dc-48c5-8c97-2fc64808209f"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ZIP_CODE",
+      "field_confidence": 97.30610656738281,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "40219-1800",
+      "value_confidence": 99.78265380859375,
+      "value_bb": {
+        "topleft_x": 0.2221345603466034,
+        "topleft_y": 0.12885504961013794,
+        "height": 0.011091409251093864,
+        "width": 0.11792249977588654
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "e5f9e878-96dc-48c5-8c97-2fc64808209f"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "NAME",
+      "field_confidence": 99.8179931640625,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING",
+      "value_confidence": 99.81044006347656,
+      "value_bb": {
+        "topleft_x": 0.057162556797266006,
+        "topleft_y": 0.0987037718296051,
+        "height": 0.010815795511007309,
+        "width": 0.17623893916606903
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "e5f9e878-96dc-48c5-8c97-2fc64808209f"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS_BLOCK",
+      "field_confidence": 99.8179931640625,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 99.90780639648438,
+      "value_bb": {
+        "topleft_x": 0.05605698749423027,
+        "topleft_y": 0.11378917098045349,
+        "height": 0.02617506869137287,
+        "width": 0.28400009870529175
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "RECEIVER"
+          ],
+          "Id": "e5f9e878-96dc-48c5-8c97-2fc64808209f"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS",
+      "field_confidence": 89.28597259521484,
+      "label": "BRANCH AA8",
+      "label_confidence": 89.37796020507812,
+      "label_bb": {
+        "topleft_x": 0.0422426201403141,
+        "topleft_y": 0.046696458011865616,
+        "height": 0.007153280079364777,
+        "width": 0.06929106265306473
+      },
+      "value": "4024 E BLUE LICK RD\nLOUISVILLE KY 40229-6059",
+      "value_confidence": 89.29436492919922,
+      "value_bb": {
+        "topleft_x": 0.04227999225258827,
+        "topleft_y": 0.054491180926561356,
+        "height": 0.014681628905236721,
+        "width": 0.16547554731369019
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "799926ec-2977-4404-ab1f-e6038834eaac"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STREET",
+      "field_confidence": 89.28597259521484,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "4024 E BLUE LICK RD",
+      "value_confidence": 99.87555694580078,
+      "value_bb": {
+        "topleft_x": 0.04300491511821747,
+        "topleft_y": 0.05376943200826645,
+        "height": 0.008043467067182064,
+        "width": 0.13020558655261993
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "799926ec-2977-4404-ab1f-e6038834eaac"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CITY",
+      "field_confidence": 89.28597259521484,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "LOUISVILLE",
+      "value_confidence": 99.98342895507812,
+      "value_bb": {
+        "topleft_x": 0.04201091453433037,
+        "topleft_y": 0.06177088990807533,
+        "height": 0.007219805382192135,
+        "width": 0.0696851909160614
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "799926ec-2977-4404-ab1f-e6038834eaac"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "STATE",
+      "field_confidence": 89.28597259521484,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "KY",
+      "value_confidence": 99.91692352294922,
+      "value_bb": {
+        "topleft_x": 0.11703670769929886,
+        "topleft_y": 0.06179775297641754,
+        "height": 0.007236077915877104,
+        "width": 0.015017042867839336
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "799926ec-2977-4404-ab1f-e6038834eaac"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ZIP_CODE",
+      "field_confidence": 89.28597259521484,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "40229-6059",
+      "value_confidence": 99.74190521240234,
+      "value_bb": {
+        "topleft_x": 0.1380443274974823,
+        "topleft_y": 0.06180527061223984,
+        "height": 0.0073675368912518024,
+        "width": 0.06971122324466705
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "799926ec-2977-4404-ab1f-e6038834eaac"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "ADDRESS_BLOCK",
+      "field_confidence": 89.28597259521484,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "4024 E BLUE LICK RD\nLOUISVILLE KY 40229-6059",
+      "value_confidence": 99.87432098388672,
+      "value_bb": {
+        "topleft_x": 0.04200458899140358,
+        "topleft_y": 0.0537690743803978,
+        "height": 0.015403734520077705,
+        "width": 0.16575095057487488
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "799926ec-2977-4404-ab1f-e6038834eaac"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "NAME",
+      "field_confidence": 98.82500457763672,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "OUnited Rentals",
+      "value_confidence": 98.70718383789062,
+      "value_bb": {
+        "topleft_x": 0.044673748314380646,
+        "topleft_y": 0.015066736377775669,
+        "height": 0.020380480214953423,
+        "width": 0.24325154721736908
+      },
+      "group_properties": [
+        {
+          "Types": [
+            "VENDOR"
+          ],
+          "Id": "d01e3507-88ab-4b59-918e-c98644e2ba59"
+        }
+      ]
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CUSTOMER_NUMBER",
+      "field_confidence": 99.46916961669922,
+      "label": "Customer # :",
+      "label_confidence": 97.75174713134766,
+      "label_bb": {
+        "topleft_x": 0.5934420824050903,
+        "topleft_y": 0.07380298525094986,
+        "height": 0.009553858079016209,
+        "width": 0.139178067445755
+      },
+      "value": "908478",
+      "value_confidence": 99.40219116210938,
+      "value_bb": {
+        "topleft_x": 0.7406636476516724,
+        "topleft_y": 0.07393290102481842,
+        "height": 0.009009204804897308,
+        "width": 0.051610998809337616
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "CUSTOMER_NUMBER",
+      "field_confidence": 80.99215698242188,
+      "label": "Customer Job ID :",
+      "label_confidence": 73.63076782226562,
+      "label_bb": {
+        "topleft_x": 0.5934501886367798,
+        "topleft_y": 0.1343494951725006,
+        "height": 0.009224587120115757,
+        "width": 0.1390049308538437
+      },
+      "value": "",
+      "value_confidence": 73.63076782226562,
+      "value_bb": null,
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "INVOICE_RECEIPT_ID",
+      "field_confidence": 47.95245361328125,
+      "label": "RENTAL QUOTE",
+      "label_confidence": 56.218475341796875,
+      "label_bb": {
+        "topleft_x": 0.6897274851799011,
+        "topleft_y": 0.015015523880720139,
+        "height": 0.01623225025832653,
+        "width": 0.18140314519405365
+      },
+      "value": "# 260536114",
+      "value_confidence": 56.15525817871094,
+      "value_bb": {
+        "topleft_x": 0.7078384757041931,
+        "topleft_y": 0.054462939500808716,
+        "height": 0.014931837096810341,
+        "width": 0.14393764734268188
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "PO_NUMBER",
+      "field_confidence": 97.171142578125,
+      "label": "P.O. # :",
+      "label_confidence": 95.54232025146484,
+      "label_bb": {
+        "topleft_x": 0.5937139987945557,
+        "topleft_y": 0.14474685490131378,
+        "height": 0.009187230840325356,
+        "width": 0.13891930878162384
+      },
+      "value": "TBD",
+      "value_confidence": 97.1349868774414,
+      "value_bb": {
+        "topleft_x": 0.7400567531585693,
+        "topleft_y": 0.14505518972873688,
+        "height": 0.008274984546005726,
+        "width": 0.026118427515029907
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_ADDRESS",
+      "field_confidence": 99.98529052734375,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING INC\n1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 99.88661193847656,
+      "value_bb": {
+        "topleft_x": 0.0568256713449955,
+        "topleft_y": 0.20081672072410583,
+        "height": 0.04140281677246094,
+        "width": 0.2842707931995392
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_ADDRESS",
+      "field_confidence": 97.30610656738281,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING\n1006 INDUSTRIAL BLVD\nLOUISVILLE KY 40219-1800",
+      "value_confidence": 97.27547454833984,
+      "value_bb": {
+        "topleft_x": 0.05639073997735977,
+        "topleft_y": 0.09878523647785187,
+        "height": 0.04120323434472084,
+        "width": 0.28366637229919434
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_NAME",
+      "field_confidence": 99.98513793945312,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING INC",
+      "value_confidence": 99.9688491821289,
+      "value_bb": {
+        "topleft_x": 0.05719127506017685,
+        "topleft_y": 0.200712651014328,
+        "height": 0.011136576533317566,
+        "width": 0.2225366234779358
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_NAME",
+      "field_confidence": 99.8179931640625,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "SUBURBAN TOWING",
+      "value_confidence": 99.81044006347656,
+      "value_bb": {
+        "topleft_x": 0.057162556797266006,
+        "topleft_y": 0.0987037718296051,
+        "height": 0.010815795511007309,
+        "width": 0.17623893916606903
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "RECEIVER_PHONE",
+      "field_confidence": 77.18202209472656,
+      "label": "Office:",
+      "label_confidence": 77.10871124267578,
+      "label_bb": {
+        "topleft_x": 0.056007254868745804,
+        "topleft_y": 0.15768501162528992,
+        "height": 0.01161829475313425,
+        "width": 0.07974760979413986
+      },
+      "value": "502-964-6500",
+      "value_confidence": 77.13008880615234,
+      "value_bb": {
+        "topleft_x": 0.15152105689048767,
+        "topleft_y": 0.15786144137382507,
+        "height": 0.01157474983483553,
+        "width": 0.13929902017116547
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "VENDOR_ADDRESS",
+      "field_confidence": 89.28597259521484,
+      "label": "BRANCH AA8",
+      "label_confidence": 89.37796020507812,
+      "label_bb": {
+        "topleft_x": 0.0422426201403141,
+        "topleft_y": 0.046696458011865616,
+        "height": 0.007153280079364777,
+        "width": 0.06929106265306473
+      },
+      "value": "4024 E BLUE LICK RD\nLOUISVILLE KY 40229-6059",
+      "value_confidence": 89.29436492919922,
+      "value_bb": {
+        "topleft_x": 0.04227999225258827,
+        "topleft_y": 0.054491180926561356,
+        "height": 0.014681628905236721,
+        "width": 0.16547554731369019
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "VENDOR_NAME",
+      "field_confidence": 98.82500457763672,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "OUnited Rentals",
+      "value_confidence": 98.70718383789062,
+      "value_bb": {
+        "topleft_x": 0.044673748314380646,
+        "topleft_y": 0.015066736377775669,
+        "height": 0.020380480214953423,
+        "width": 0.24325154721736908
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "VENDOR_PHONE",
+      "field_confidence": 99.99728393554688,
+      "label": null,
+      "label_confidence": null,
+      "label_bb": null,
+      "value": "502-776-9697",
+      "value_confidence": 99.94469451904297,
+      "value_bb": {
+        "topleft_x": 0.04263537749648094,
+        "topleft_y": 0.06927916407585144,
+        "height": 0.007566852495074272,
+        "width": 0.08265743404626846
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.7436752319336,
+      "label": "Quote Date :",
+      "label_confidence": 99.0308837890625,
+      "label_bb": {
+        "topleft_x": 0.5934036374092102,
+        "topleft_y": 0.08394961804151535,
+        "height": 0.010108775459229946,
+        "width": 0.13927915692329407
+      },
+      "value": "03/30/26",
+      "value_confidence": 99.38544464111328,
+      "value_bb": {
+        "topleft_x": 0.7400310635566711,
+        "topleft_y": 0.08401305973529816,
+        "height": 0.009305175393819809,
+        "width": 0.07039232552051544
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.70439910888672,
+      "label": "Estimated Out :",
+      "label_confidence": 98.93598175048828,
+      "label_bb": {
+        "topleft_x": 0.5933496356010437,
+        "topleft_y": 0.09416650980710983,
+        "height": 0.008843157440423965,
+        "width": 0.13912443816661835
+      },
+      "value": "04/13/26 04: 00 PM",
+      "value_confidence": 99.6466293334961,
+      "value_bb": {
+        "topleft_x": 0.7405186891555786,
+        "topleft_y": 0.09375306218862534,
+        "height": 0.009538620710372925,
+        "width": 0.15860778093338013
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.8781509399414,
+      "label": "Estimated In :",
+      "label_confidence": 99.24578857421875,
+      "label_bb": {
+        "topleft_x": 0.5932952165603638,
+        "topleft_y": 0.10395026206970215,
+        "height": 0.009323691949248314,
+        "width": 0.13917824625968933
+      },
+      "value": "03/15/27 04: 00 PM",
+      "value_confidence": 99.82698059082031,
+      "value_bb": {
+        "topleft_x": 0.740551769733429,
+        "topleft_y": 0.10382414609193802,
+        "height": 0.009940396063029766,
+        "width": 0.15872491896152496
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 98.93598937988281,
+      "label": "UR Job Loc :",
+      "label_confidence": 98.35533142089844,
+      "label_bb": {
+        "topleft_x": 0.593239963054657,
+        "topleft_y": 0.11421497166156769,
+        "height": 0.009093670174479485,
+        "width": 0.13949330151081085
+      },
+      "value": "1006 INDUSTRIAL BLVD",
+      "value_confidence": 98.9246597290039,
+      "value_bb": {
+        "topleft_x": 0.7407551407814026,
+        "topleft_y": 0.11442940682172775,
+        "height": 0.008835062384605408,
+        "width": 0.175643652677536
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 92.42845916748047,
+      "label": "UR Job # :",
+      "label_confidence": 91.40644836425781,
+      "label_bb": {
+        "topleft_x": 0.5930723547935486,
+        "topleft_y": 0.12394494563341141,
+        "height": 0.009918414056301117,
+        "width": 0.14231161773204803
+      },
+      "value": "7",
+      "value_confidence": 92.33905029296875,
+      "value_bb": {
+        "topleft_x": 0.7407552599906921,
+        "topleft_y": 0.12461275607347488,
+        "height": 0.007992897182703018,
+        "width": 0.007653955835849047
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 94.75196075439453,
+      "label": "Ordered By :",
+      "label_confidence": 94.15179443359375,
+      "label_bb": {
+        "topleft_x": 0.5932304859161377,
+        "topleft_y": 0.15470851957798004,
+        "height": 0.01076773926615715,
+        "width": 0.13939310610294342
+      },
+      "value": "KYLE",
+      "value_confidence": 94.85011291503906,
+      "value_bb": {
+        "topleft_x": 0.7398820519447327,
+        "topleft_y": 0.15517430007457733,
+        "height": 0.00816204585134983,
+        "width": 0.03570103272795677
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 98.42561340332031,
+      "label": "Written By :",
+      "label_confidence": 97.96696472167969,
+      "label_bb": {
+        "topleft_x": 0.5928663611412048,
+        "topleft_y": 0.16502510011196136,
+        "height": 0.010729021392762661,
+        "width": 0.13982146978378296
+      },
+      "value": "ALEX KAHN",
+      "value_confidence": 98.33665466308594,
+      "value_bb": {
+        "topleft_x": 0.7396594882011414,
+        "topleft_y": 0.1652323603630066,
+        "height": 0.008508650586009026,
+        "width": 0.07923104614019394
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.11433410644531,
+      "label": "Salesperson :",
+      "label_confidence": 97.17225646972656,
+      "label_bb": {
+        "topleft_x": 0.5935720801353455,
+        "topleft_y": 0.17513933777809143,
+        "height": 0.010600827634334564,
+        "width": 0.13930463790893555
+      },
+      "value": "ALEX KAHN",
+      "value_confidence": 99.24056243896484,
+      "value_bb": {
+        "topleft_x": 0.7395198941230774,
+        "topleft_y": 0.17534971237182617,
+        "height": 0.008351460099220276,
+        "width": 0.07936640828847885
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.91651916503906,
+      "label": "COMMENTS/NOTES:",
+      "label_confidence": 99.39330291748047,
+      "label_bb": {
+        "topleft_x": 0.03586762398481369,
+        "topleft_y": 0.3042715787887573,
+        "height": 0.007712524384260178,
+        "width": 0.11632287502288818
+      },
+      "value": "LADDERS WITH SPOTTERS FOR THE MINIMAL\nTIME SPENT ON THE ROOF DURING\nINSTALLATION AND DEMOBILIZATION. WHILE\nON THE ROOF, EACH CREW MEMBER WITH WEAR\nA RETRACTABLE HARNESS CONNECTED TO A\nCABLE THAT RUNS THE FULL LENGTH OF EACH\nMODULE. UR ASSUMES CUSTOMER TO PROVIDE\nDUMPSTER.",
+      "value_confidence": 99.85252380371094,
+      "value_bb": {
+        "topleft_x": 0.08997678011655807,
+        "topleft_y": 0.31454136967658997,
+        "height": 0.07836898416280746,
+        "width": 0.3087657690048218
+      },
+      "group_properties": []
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "field_name": "OTHER",
+      "field_confidence": 99.95455169677734,
+      "label": "Page:",
+      "label_confidence": 99.45987701416016,
+      "label_bb": {
+        "topleft_x": 0.8449162244796753,
+        "topleft_y": 0.9690585136413574,
+        "height": 0.008855678141117096,
+        "width": 0.0325605683028698
+      },
+      "value": "2",
+      "value_confidence": 94.84341430664062,
+      "value_bb": {
+        "topleft_x": 0.8991144299507141,
+        "topleft_y": 0.9688023924827576,
+        "height": 0.007572103291749954,
+        "width": 0.007393126841634512
+      },
+      "group_properties": []
+    }
+  ],
+  "line_items": [
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 1,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "RENTAL\nQty",
+          "label_confidence": 79.92561340332031,
+          "label_bb": {
+            "topleft_x": 0.037167828530073166,
+            "topleft_y": 0.3048604428768158,
+            "height": 0.018542049452662468,
+            "width": 0.047146543860435486
+          },
+          "value": "1",
+          "value_confidence": 99.71099853515625,
+          "value_bb": {
+            "topleft_x": 0.0657055526971817,
+            "topleft_y": 0.3338239789009094,
+            "height": 0.00828470103442669,
+            "width": 0.011250912211835384
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRODUCT_CODE",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "9230020",
+          "value_confidence": 92.8381576538086,
+          "value_bb": {
+            "topleft_x": 0.09160178154706955,
+            "topleft_y": 0.33387911319732666,
+            "height": 0.008946227841079235,
+            "width": 0.05410631746053696
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.4781932532787323,
+            "topleft_y": 0.33269739151000977,
+            "height": 0.010461281053721905,
+            "width": 0.11333449929952621
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.5915104150772095,
+            "topleft_y": 0.33293864130973816,
+            "height": 0.010441947728395462,
+            "width": 0.10425188392400742
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.695745050907135,
+            "topleft_y": 0.3331606090068817,
+            "height": 0.010369200259447098,
+            "width": 0.07008371502161026
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "3,000.00",
+          "value_confidence": 95.34272003173828,
+          "value_bb": {
+            "topleft_x": 0.7900043725967407,
+            "topleft_y": 0.3343515694141388,
+            "height": 0.008632895536720753,
+            "width": 0.06220880523324013
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "36,000.00",
+          "value_confidence": 99.94110870361328,
+          "value_bb": {
+            "topleft_x": 0.8839489817619324,
+            "topleft_y": 0.33356133103370667,
+            "height": 0.009600469842553139,
+            "width": 0.07022658735513687
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "MODULAR BLDG 24X60 W/2-RR",
+          "value_confidence": 99.70698547363281,
+          "value_bb": {
+            "topleft_x": 0.17648161947727203,
+            "topleft_y": 0.3336963951587677,
+            "height": 0.008945051580667496,
+            "width": 0.19813166558742523
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 9230020 MODULAR BLDG 24X60 W/2-RR 3,000.00 36,000.00",
+          "value_confidence": 99.80377197265625,
+          "value_bb": {
+            "topleft_x": 0.06570456176996231,
+            "topleft_y": 0.331819087266922,
+            "height": 0.012727702967822552,
+            "width": 0.8884709477424622
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 0.06570456176996231,
+        "topleft_y": 0.331819087266922,
+        "height": 0.012727702967822552,
+        "width": 0.8884710073471069
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 2,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "RENTAL\nQty",
+          "label_confidence": 79.92561340332031,
+          "label_bb": {
+            "topleft_x": 0.037167828530073166,
+            "topleft_y": 0.3048604428768158,
+            "height": 0.018542049452662468,
+            "width": 0.047146543860435486
+          },
+          "value": "1",
+          "value_confidence": 99.51107788085938,
+          "value_bb": {
+            "topleft_x": 0.06561439484357834,
+            "topleft_y": 0.3538726270198822,
+            "height": 0.00828681979328394,
+            "width": 0.011614404618740082
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRODUCT_CODE",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "922/1000",
+          "value_confidence": 92.57601165771484,
+          "value_bb": {
+            "topleft_x": 0.09156732261180878,
+            "topleft_y": 0.3539279103279114,
+            "height": 0.008880972862243652,
+            "width": 0.06207631900906563
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.47815921902656555,
+            "topleft_y": 0.3527461886405945,
+            "height": 0.01039911713451147,
+            "width": 0.1133345291018486
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.5914765000343323,
+            "topleft_y": 0.35298749804496765,
+            "height": 0.010379782877862453,
+            "width": 0.10425189882516861
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.6957112550735474,
+            "topleft_y": 0.3532094359397888,
+            "height": 0.01030703168362379,
+            "width": 0.07008369266986847
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "69.83",
+          "value_confidence": 94.11941528320312,
+          "value_bb": {
+            "topleft_x": 0.8139879107475281,
+            "topleft_y": 0.3542034327983856,
+            "height": 0.008172445930540562,
+            "width": 0.03820055350661278
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "837.96",
+          "value_confidence": 99.98887634277344,
+          "value_bb": {
+            "topleft_x": 0.9077721238136292,
+            "topleft_y": 0.3536609709262848,
+            "height": 0.008428570814430714,
+            "width": 0.047124218195676804
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "OFFICE TRAILER STEPS",
+          "value_confidence": 99.9053726196289,
+          "value_bb": {
+            "topleft_x": 0.17674849927425385,
+            "topleft_y": 0.3541092872619629,
+            "height": 0.008449484594166279,
+            "width": 0.15799619257450104
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 922/1000 OFFICE TRAILER STEPS 69.83 837.96",
+          "value_confidence": 99.88591766357422,
+          "value_bb": {
+            "topleft_x": 0.06561356037855148,
+            "topleft_y": 0.35186776518821716,
+            "height": 0.012647298164665699,
+            "width": 0.889282763004303
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 0.06561356037855148,
+        "topleft_y": 0.35186776518821716,
+        "height": 0.012647298164665699,
+        "width": 0.8892827816307545
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 3,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "RENTAL\nQty",
+          "label_confidence": 79.92561340332031,
+          "label_bb": {
+            "topleft_x": 0.037167828530073166,
+            "topleft_y": 0.3048604428768158,
+            "height": 0.018542049452662468,
+            "width": 0.047146543860435486
+          },
+          "value": "1",
+          "value_confidence": 99.2937240600586,
+          "value_bb": {
+            "topleft_x": 0.06583406776189804,
+            "topleft_y": 0.37465718388557434,
+            "height": 0.007716895081102848,
+            "width": 0.01088800560683012
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRODUCT_CODE",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "923/1010",
+          "value_confidence": 92.5493392944336,
+          "value_bb": {
+            "topleft_x": 0.09153285622596741,
+            "topleft_y": 0.37397676706314087,
+            "height": 0.00880452897399664,
+            "width": 0.06214546412229538
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.47812420129776,
+            "topleft_y": 0.37360596656799316,
+            "height": 0.010107572190463543,
+            "width": 0.11333417147397995
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.5914416313171387,
+            "topleft_y": 0.37384727597236633,
+            "height": 0.010088237002491951,
+            "width": 0.10425153374671936
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.6956765055656433,
+            "topleft_y": 0.3740692436695099,
+            "height": 0.01001548208296299,
+            "width": 0.07008328288793564
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "1,750.00",
+          "value_confidence": 92.8735580444336,
+          "value_bb": {
+            "topleft_x": 0.7899868488311768,
+            "topleft_y": 0.37446165084838867,
+            "height": 0.009101631119847298,
+            "width": 0.06220610439777374
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "21,000.00",
+          "value_confidence": 99.98990631103516,
+          "value_bb": {
+            "topleft_x": 0.8835703730583191,
+            "topleft_y": 0.3746013343334198,
+            "height": 0.008900506421923637,
+            "width": 0.07092004269361496
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "MODULAR BLDG RAMPS",
+          "value_confidence": 99.94810485839844,
+          "value_bb": {
+            "topleft_x": 0.1764267086982727,
+            "topleft_y": 0.3745667636394501,
+            "height": 0.008180146105587482,
+            "width": 0.14261394739151
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 923/1010 MODULAR BLDG RAMPS 1,750.00 21,000.00",
+          "value_confidence": 99.83966827392578,
+          "value_bb": {
+            "topleft_x": 0.06583365052938461,
+            "topleft_y": 0.37272801995277405,
+            "height": 0.011758599430322647,
+            "width": 0.8886569738388062
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 0.06583365052938461,
+        "topleft_y": 0.37272801995277405,
+        "height": 0.011758599430322647,
+        "width": 0.8886569738388062
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 4,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 3.682896249301848e-06,
+            "topleft_y": 0.0,
+            "height": 0.0,
+            "width": 0.0
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1 SETUP\nCONSTRUCTION SET-UP LEVEL GRADE\nANCHORED IN ASPHALT/DIRT, NON-UNION LABO\nR' DOES NOT INCLUDE**\nDUMPSTER",
+          "value_confidence": 93.08251190185547,
+          "value_bb": {
+            "topleft_x": 0.08423931151628494,
+            "topleft_y": 0.435110867023468,
+            "height": 0.04888805374503136,
+            "width": 0.32152825593948364
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "[SETUP/MCI]",
+          "value_confidence": 79.60508728027344,
+          "value_bb": {
+            "topleft_x": 0.5023743510246277,
+            "topleft_y": 0.43538472056388855,
+            "height": 0.00874226912856102,
+            "width": 0.08120229840278625
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "9000.000",
+          "value_confidence": 99.79110717773438,
+          "value_bb": {
+            "topleft_x": 0.6095290184020996,
+            "topleft_y": 0.43507087230682373,
+            "height": 0.008351177908480167,
+            "width": 0.06227315962314606
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "EACH",
+          "value_confidence": 84.25591278076172,
+          "value_bb": {
+            "topleft_x": 0.7113236784934998,
+            "topleft_y": 0.4358132481575012,
+            "height": 0.0073898592963814735,
+            "width": 0.03183300793170929
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.765573263168335,
+            "topleft_y": 0.4345570504665375,
+            "height": 0.05045224353671074,
+            "width": 0.08831717073917389
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "9,000.00",
+          "value_confidence": 99.96355438232422,
+          "value_bb": {
+            "topleft_x": 0.8921293616294861,
+            "topleft_y": 0.43482643365859985,
+            "height": 0.009318598546087742,
+            "width": 0.06235784664750099
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1",
+          "value_confidence": 98.52469635009766,
+          "value_bb": {
+            "topleft_x": 0.08127205818891525,
+            "topleft_y": 0.4351043999195099,
+            "height": 0.00797190610319376,
+            "width": 0.011357351206243038
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 SETUP [SETUP/MCI] 9000.000 EACH 9,000.00\nCONSTRUCTION SET-UP LEVEL GRADE\nANCHORED IN ASPHALT/DIRT, NON-UNION LABO\nR' DOES NOT INCLUDE**\nDUMPSTER",
+          "value_confidence": 94.23745727539062,
+          "value_bb": {
+            "topleft_x": 0.08120246976613998,
+            "topleft_y": 0.43309950828552246,
+            "height": 0.05212406441569328,
+            "width": 0.8732847571372986
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 3.682896249301848e-06,
+        "topleft_y": 0.0,
+        "height": 0.48522357270121574,
+        "width": 0.9544835440071893
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 5,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 3.682896249301848e-06,
+            "topleft_y": 0.0,
+            "height": 0.0,
+            "width": 0.0
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "SETUP\nVINYL SKIRTING SETUP",
+          "value_confidence": 99.94527435302734,
+          "value_bb": {
+            "topleft_x": 0.09012261778116226,
+            "topleft_y": 0.4952709674835205,
+            "height": 0.01867580972611904,
+            "width": 0.158498615026474
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "[SETUP/MCI]",
+          "value_confidence": 77.78557586669922,
+          "value_bb": {
+            "topleft_x": 0.503286600112915,
+            "topleft_y": 0.4960673451423645,
+            "height": 0.008836024440824986,
+            "width": 0.08038534969091415
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "3500.000",
+          "value_confidence": 99.70306396484375,
+          "value_bb": {
+            "topleft_x": 0.6094263195991516,
+            "topleft_y": 0.495374470949173,
+            "height": 0.008622747845947742,
+            "width": 0.06243090704083443
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "EACH",
+          "value_confidence": 81.25419616699219,
+          "value_bb": {
+            "topleft_x": 0.7114160656929016,
+            "topleft_y": 0.4965648651123047,
+            "height": 0.007182502653449774,
+            "width": 0.03154513239860535
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.765522301197052,
+            "topleft_y": 0.4954979121685028,
+            "height": 0.019737962633371353,
+            "width": 0.08826569467782974
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "3,500.00",
+          "value_confidence": 99.78421020507812,
+          "value_bb": {
+            "topleft_x": 0.8920095562934875,
+            "topleft_y": 0.49582624435424805,
+            "height": 0.00883758906275034,
+            "width": 0.062191642820835114
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1",
+          "value_confidence": 99.02657318115234,
+          "value_bb": {
+            "topleft_x": 0.08147723227739334,
+            "topleft_y": 0.49578210711479187,
+            "height": 0.00773961003869772,
+            "width": 0.010679983533918858
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 SETUP [SETUP/MCI] 3500.000 EACH 3,500.00\nVINYL SKIRTING SETUP",
+          "value_confidence": 99.52682495117188,
+          "value_bb": {
+            "topleft_x": 0.08145981281995773,
+            "topleft_y": 0.4940408170223236,
+            "height": 0.02140897698700428,
+            "width": 0.8727415204048157
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 3.682896249301848e-06,
+        "topleft_y": 0.0,
+        "height": 0.5154497940093279,
+        "width": 0.9541976503285241
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 6,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 3.682896249301848e-06,
+            "topleft_y": 0.0,
+            "height": 0.0,
+            "width": 0.0
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "TEAR DOWN",
+          "value_confidence": 99.9605941772461,
+          "value_bb": {
+            "topleft_x": 0.10630352050065994,
+            "topleft_y": 0.5261672139167786,
+            "height": 0.008056120947003365,
+            "width": 0.07123029977083206
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "[TEAR DOWN/MCI]",
+          "value_confidence": 75.16914367675781,
+          "value_bb": {
+            "topleft_x": 0.470848023891449,
+            "topleft_y": 0.5262302160263062,
+            "height": 0.009029700420796871,
+            "width": 0.1127648800611496
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "8000.000",
+          "value_confidence": 99.90296173095703,
+          "value_bb": {
+            "topleft_x": 0.6093750596046448,
+            "topleft_y": 0.5258842706680298,
+            "height": 0.008377834223210812,
+            "width": 0.06249955669045448
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "EACH",
+          "value_confidence": 76.71967315673828,
+          "value_bb": {
+            "topleft_x": 0.7114064693450928,
+            "topleft_y": 0.5268355011940002,
+            "height": 0.007312205620110035,
+            "width": 0.03160279989242554
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.7654879093170166,
+            "topleft_y": 0.5256873369216919,
+            "height": 0.009934943169355392,
+            "width": 0.0882493183016777
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "8,000.00",
+          "value_confidence": 99.9728012084961,
+          "value_bb": {
+            "topleft_x": 0.8919628858566284,
+            "topleft_y": 0.5259567499160767,
+            "height": 0.009019125252962112,
+            "width": 0.06248733773827553
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1",
+          "value_confidence": 98.91581726074219,
+          "value_bb": {
+            "topleft_x": 0.08121847361326218,
+            "topleft_y": 0.5260769128799438,
+            "height": 0.007833767682313919,
+            "width": 0.011701703071594238
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 TEAR DOWN [TEAR DOWN/MCI] 8000.000 EACH 8,000.00",
+          "value_confidence": 99.77631378173828,
+          "value_bb": {
+            "topleft_x": 0.0812179446220398,
+            "topleft_y": 0.5242297053337097,
+            "height": 0.011820225045084953,
+            "width": 0.8732322454452515
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 3.682896249301848e-06,
+        "topleft_y": 0.0,
+        "height": 0.5360499303787947,
+        "width": 0.9544465406986546
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 7,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 3.682896249301848e-06,
+            "topleft_y": 0.0,
+            "height": 0.0,
+            "width": 0.0
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "TEAR DOWN\nSKIRTING TEARDOWN",
+          "value_confidence": 99.92698669433594,
+          "value_bb": {
+            "topleft_x": 0.09165135025978088,
+            "topleft_y": 0.546399712562561,
+            "height": 0.018180882558226585,
+            "width": 0.13309797644615173
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "[TEAR DOWN/MCI]",
+          "value_confidence": 78.78024291992188,
+          "value_bb": {
+            "topleft_x": 0.47067901492118835,
+            "topleft_y": 0.5465291738510132,
+            "height": 0.009164989925920963,
+            "width": 0.11280125379562378
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "1250.000",
+          "value_confidence": 99.90211486816406,
+          "value_bb": {
+            "topleft_x": 0.609686017036438,
+            "topleft_y": 0.5462115406990051,
+            "height": 0.008491715416312218,
+            "width": 0.062128663063049316
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "EACH",
+          "value_confidence": 80.51285552978516,
+          "value_bb": {
+            "topleft_x": 0.7116784453392029,
+            "topleft_y": 0.5471929311752319,
+            "height": 0.007131391204893589,
+            "width": 0.031195467337965965
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.7654368281364441,
+            "topleft_y": 0.545830249786377,
+            "height": 0.020090339705348015,
+            "width": 0.08826654404401779
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "1,250.00",
+          "value_confidence": 99.96269989013672,
+          "value_bb": {
+            "topleft_x": 0.8919429183006287,
+            "topleft_y": 0.5460997223854065,
+            "height": 0.009116364642977715,
+            "width": 0.06251947581768036
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1",
+          "value_confidence": 99.04216766357422,
+          "value_bb": {
+            "topleft_x": 0.08136499673128128,
+            "topleft_y": 0.5462712645530701,
+            "height": 0.007942484691739082,
+            "width": 0.01105411909520626
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 TEAR DOWN [TEAR DOWN/MCI] 1250.000 EACH 1,250.00\nSKIRTING TEARDOWN",
+          "value_confidence": 99.76189422607422,
+          "value_bb": {
+            "topleft_x": 0.08134758472442627,
+            "topleft_y": 0.5443728566169739,
+            "height": 0.021762358024716377,
+            "width": 0.873114824295044
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 3.682896249301848e-06,
+        "topleft_y": 0.0,
+        "height": 0.5661352146416903,
+        "width": 0.9544587261232209
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 8,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 3.682896249301848e-06,
+            "topleft_y": 0.0,
+            "height": 0.0,
+            "width": 0.0
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "SETUP\nRAMP SETUP",
+          "value_confidence": 99.93468475341797,
+          "value_bb": {
+            "topleft_x": 0.09059784561395645,
+            "topleft_y": 0.5764716267585754,
+            "height": 0.018246648833155632,
+            "width": 0.07959634810686111
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "[SETUP/MCI]",
+          "value_confidence": 76.52322387695312,
+          "value_bb": {
+            "topleft_x": 0.5023345351219177,
+            "topleft_y": 0.5768517255783081,
+            "height": 0.008956480771303177,
+            "width": 0.08111658692359924
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "3300.000",
+          "value_confidence": 99.9074935913086,
+          "value_bb": {
+            "topleft_x": 0.6092893481254578,
+            "topleft_y": 0.5764012932777405,
+            "height": 0.008391383104026318,
+            "width": 0.0626189261674881
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "EACH",
+          "value_confidence": 80.75550079345703,
+          "value_bb": {
+            "topleft_x": 0.7115318179130554,
+            "topleft_y": 0.5774899125099182,
+            "height": 0.0071446639485657215,
+            "width": 0.03134173899888992
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.7653860449790955,
+            "topleft_y": 0.5759042501449585,
+            "height": 0.02014378271996975,
+            "width": 0.08826678991317749
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "3,300.00",
+          "value_confidence": 99.96369171142578,
+          "value_bb": {
+            "topleft_x": 0.8918917775154114,
+            "topleft_y": 0.5761737823486328,
+            "height": 0.009498164057731628,
+            "width": 0.06266225129365921
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1",
+          "value_confidence": 99.06615447998047,
+          "value_bb": {
+            "topleft_x": 0.0813576802611351,
+            "topleft_y": 0.5764518976211548,
+            "height": 0.008013380691409111,
+            "width": 0.010669411160051823
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 SETUP [SETUP/MCI] 3300.000 EACH 3,300.00\nRAMP SETUP",
+          "value_confidence": 99.38544464111328,
+          "value_bb": {
+            "topleft_x": 0.08134026825428009,
+            "topleft_y": 0.5744469165802002,
+            "height": 0.021942513063549995,
+            "width": 0.8732137680053711
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 3.682896249301848e-06,
+        "topleft_y": 0.0,
+        "height": 0.5963894296437502,
+        "width": 0.9545503533634019
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 9,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 3.682896249301848e-06,
+            "topleft_y": 0.0,
+            "height": 0.0,
+            "width": 0.0
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "TEAR DOWN\nRAMP TEARDOWN",
+          "value_confidence": 99.93511962890625,
+          "value_bb": {
+            "topleft_x": 0.09141390770673752,
+            "topleft_y": 0.606547474861145,
+            "height": 0.01847161538898945,
+            "width": 0.10206212848424911
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "[TEAR DOWN/MCI]",
+          "value_confidence": 79.01602172851562,
+          "value_bb": {
+            "topleft_x": 0.4707963764667511,
+            "topleft_y": 0.6070026755332947,
+            "height": 0.009297219105064869,
+            "width": 0.11276703327894211
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "3300.000",
+          "value_confidence": 99.85916900634766,
+          "value_bb": {
+            "topleft_x": 0.6092379689216614,
+            "topleft_y": 0.606648325920105,
+            "height": 0.008461260236799717,
+            "width": 0.06274618953466415
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "EACH",
+          "value_confidence": 80.89083862304688,
+          "value_bb": {
+            "topleft_x": 0.7116461992263794,
+            "topleft_y": 0.6076873540878296,
+            "height": 0.007185530383139849,
+            "width": 0.031344134360551834
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.7653348445892334,
+            "topleft_y": 0.606422483921051,
+            "height": 0.019974112510681152,
+            "width": 0.08826666325330734
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "3,300.00",
+          "value_confidence": 99.96466827392578,
+          "value_bb": {
+            "topleft_x": 0.8918410539627075,
+            "topleft_y": 0.6069815158843994,
+            "height": 0.008908947929739952,
+            "width": 0.06272504478693008
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1",
+          "value_confidence": 98.95779418945312,
+          "value_bb": {
+            "topleft_x": 0.08140037208795547,
+            "topleft_y": 0.6065261363983154,
+            "height": 0.008383899927139282,
+            "width": 0.011186746880412102
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 TEAR DOWN [TEAR DOWN/MCI] 3300.000 EACH 3,300.00\nRAMP TEARDOWN",
+          "value_confidence": 99.73724365234375,
+          "value_bb": {
+            "topleft_x": 0.08138328790664673,
+            "topleft_y": 0.6049652099609375,
+            "height": 0.021675605326890945,
+            "width": 0.8731833100318909
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 3.682896249301848e-06,
+        "topleft_y": 0.0,
+        "height": 0.6266408152878284,
+        "width": 0.9545629150422883
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 10,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 3.682896249301848e-06,
+            "topleft_y": 0.0,
+            "height": 0.0,
+            "width": 0.0
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "DELIVERY CHARGE",
+          "value_confidence": 99.92296600341797,
+          "value_bb": {
+            "topleft_x": 0.10706048458814621,
+            "topleft_y": 0.6373884677886963,
+            "height": 0.008097868412733078,
+            "width": 0.11757674813270569
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.4776771068572998,
+            "topleft_y": 0.63628089427948,
+            "height": 0.00995151698589325,
+            "width": 0.11333564668893814
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "1400.000",
+          "value_confidence": 98.25928497314453,
+          "value_bb": {
+            "topleft_x": 0.6096335053443909,
+            "topleft_y": 0.636723518371582,
+            "height": 0.008772635832428932,
+            "width": 0.06230248510837555
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "EACH",
+          "value_confidence": 77.77110290527344,
+          "value_bb": {
+            "topleft_x": 0.7113333344459534,
+            "topleft_y": 0.6379382014274597,
+            "height": 0.007401676382869482,
+            "width": 0.03178715333342552
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.765300452709198,
+            "topleft_y": 0.6368937492370605,
+            "height": 0.009898077696561813,
+            "width": 0.08824983239173889
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "1,400.00",
+          "value_confidence": 99.94149017333984,
+          "value_bb": {
+            "topleft_x": 0.8917902708053589,
+            "topleft_y": 0.6373247504234314,
+            "height": 0.008841459639370441,
+            "width": 0.06272177398204803
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1",
+          "value_confidence": 98.99656677246094,
+          "value_bb": {
+            "topleft_x": 0.08134530484676361,
+            "topleft_y": 0.6366003155708313,
+            "height": 0.00861552357673645,
+            "width": 0.011442280374467373
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 DELIVERY CHARGE 1400.000 EACH 1,400.00",
+          "value_confidence": 99.77464294433594,
+          "value_bb": {
+            "topleft_x": 0.08134530484676361,
+            "topleft_y": 0.6354363560676575,
+            "height": 0.011615738272666931,
+            "width": 0.8731669783592224
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 3.682896249301848e-06,
+        "topleft_y": 0.0,
+        "height": 0.6470520943403244,
+        "width": 0.9545086003097367
+      }
+    },
+    {
+      "expense_index": 1,
+      "page": 1,
+      "line_item_group_index": 1,
+      "row_number": 11,
+      "fields": [
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 3.682896249301848e-06,
+            "topleft_y": 0.0,
+            "height": 0.0,
+            "width": 0.0
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "ITEM",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "PICKUP CHARGE",
+          "value_confidence": 99.92764282226562,
+          "value_bb": {
+            "topleft_x": 0.10707927495241165,
+            "topleft_y": 0.6572232246398926,
+            "height": 0.008315888233482838,
+            "width": 0.10201507061719894
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Minimum",
+          "label_confidence": 79.50132751464844,
+          "label_bb": {
+            "topleft_x": 0.5151425004005432,
+            "topleft_y": 0.3142886757850647,
+            "height": 0.0078773507848382,
+            "width": 0.055870186537504196
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.4776429235935211,
+            "topleft_y": 0.6561349630355835,
+            "height": 0.010167557746171951,
+            "width": 0.11333614587783813
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "UNIT_PRICE",
+          "field_confidence": 70.0,
+          "label": "Day",
+          "label_confidence": 79.89614868164062,
+          "label_bb": {
+            "topleft_x": 0.633415162563324,
+            "topleft_y": 0.3146527409553528,
+            "height": 0.00900366622954607,
+            "width": 0.023358142003417015
+          },
+          "value": "1400.000",
+          "value_confidence": 98.59622955322266,
+          "value_bb": {
+            "topleft_x": 0.6095839738845825,
+            "topleft_y": 0.6567730903625488,
+            "height": 0.008777237497270107,
+            "width": 0.062343280762434006
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "Week",
+          "label_confidence": 79.97067260742188,
+          "label_bb": {
+            "topleft_x": 0.7110745310783386,
+            "topleft_y": 0.3143850564956665,
+            "height": 0.007809468079358339,
+            "width": 0.03198226913809776
+          },
+          "value": "EACH",
+          "value_confidence": 80.52881622314453,
+          "value_bb": {
+            "topleft_x": 0.7115668058395386,
+            "topleft_y": 0.6580929756164551,
+            "height": 0.007152171339839697,
+            "width": 0.03134316951036453
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "OTHER",
+          "field_confidence": 70.0,
+          "label": "4 Week",
+          "label_confidence": 79.68092346191406,
+          "label_bb": {
+            "topleft_x": 0.7827577590942383,
+            "topleft_y": 0.31437209248542786,
+            "height": 0.007698681205511093,
+            "width": 0.04651995748281479
+          },
+          "value": "",
+          "value_confidence": 0.0,
+          "value_bb": {
+            "topleft_x": 0.7652666568756104,
+            "topleft_y": 0.6567478775978088,
+            "height": 0.010114115662872791,
+            "width": 0.0882503017783165
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "PRICE",
+          "field_confidence": 70.0,
+          "label": "Estimated Amt.",
+          "label_confidence": 79.7157974243164,
+          "label_bb": {
+            "topleft_x": 0.8606497049331665,
+            "topleft_y": 0.3142186999320984,
+            "height": 0.008235612884163857,
+            "width": 0.10699920356273651
+          },
+          "value": "1,400.00",
+          "value_confidence": 99.973876953125,
+          "value_bb": {
+            "topleft_x": 0.8917567133903503,
+            "topleft_y": 0.6571722030639648,
+            "height": 0.008950920775532722,
+            "width": 0.06281305104494095
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "QUANTITY",
+          "field_confidence": 70.0,
+          "label": "ITEMS:\nEquipment Description",
+          "label_confidence": 79.90463256835938,
+          "label_bb": {
+            "topleft_x": 0.09149228781461716,
+            "topleft_y": 0.30483484268188477,
+            "height": 0.019091693684458733,
+            "width": 0.2118532359600067
+          },
+          "value": "1",
+          "value_confidence": 98.82535552978516,
+          "value_bb": {
+            "topleft_x": 0.08130257576704025,
+            "topleft_y": 0.6566498279571533,
+            "height": 0.008582212030887604,
+            "width": 0.011197127401828766
+          },
+          "group_properties": []
+        },
+        {
+          "expense_index": 1,
+          "page": 1,
+          "field_name": "EXPENSE_ROW",
+          "field_confidence": 70.0,
+          "label": null,
+          "label_confidence": null,
+          "label_bb": null,
+          "value": "1 PICKUP CHARGE 1400.000 EACH 1,400.00",
+          "value_confidence": 99.76824188232422,
+          "value_bb": {
+            "topleft_x": 0.08130247890949249,
+            "topleft_y": 0.6552903652191162,
+            "height": 0.011837316676974297,
+            "width": 0.8732675909996033
+          },
+          "group_properties": []
+        }
+      ],
+      "bb": {
+        "topleft_x": 3.682896249301848e-06,
+        "topleft_y": 0.0,
+        "height": 0.6671276818960905,
+        "width": 0.9545663870128465
+      }
+    }
+  ]
+}

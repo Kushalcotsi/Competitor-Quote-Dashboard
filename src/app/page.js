@@ -16,11 +16,7 @@ export default async function Home(props) {
         <div>
           <div className="eyebrow">Competitive Pricing Intelligence</div>
           <h1>Competitor Quote Dashboard</h1>
-          <p>Product hierarchy is now the primary reporting view, with state coverage moved after product size/subcategory. Data is fetched live from the `core` postgres schema.</p>
-        </div>
-        <div style={{ display: 'flex' }}>
-          <button className="btn primary">Export CSV</button>
-          <button className="btn secondary">Print / PDF</button>
+          <p>Product hierarchy is now the primary reporting view, with state coverage moved after product size/subcategory. Data is fetched live from the postgres database.</p>
         </div>
       </section>
 
