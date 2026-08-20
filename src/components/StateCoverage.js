@@ -102,7 +102,7 @@ export default async function StateCoverage({ searchParams }) {
         <div className="panel">
           <div className="toolbar">
             <span>{rows.length} quote records</span>
-            <ExportButtons tableId="stateTable" filename="State_Coverage" />
+            {/* <ExportButtons tableId="stateTable" filename="State_Coverage" /> */}
           </div>
           <div className="tablewrap">
             <table id="stateTable" className="state-table">

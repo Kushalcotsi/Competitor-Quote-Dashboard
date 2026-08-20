@@ -9,9 +9,9 @@ export default function Header() {
         subcategory, and rate range. Key Findings include drill-down quote
         examples behind each insight.
       </p>
-      <button className="btn primary" id="exportCompare">
+      {/* <button className="btn primary" id="exportCompare">
         Export filtered comparison CSV
-      </button>
+      </button> */}
       <button className="btn secondary" onClick={() => window.print()}>
         Print / Save PDF
       </button>

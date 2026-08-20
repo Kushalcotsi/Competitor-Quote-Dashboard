@@ -92,7 +92,7 @@ export default async function QuotesTable({ searchParams }) {
             <span>{rows.length} rows</span>
             <span className="muted" style={{ marginLeft: 12 }}>Product hierarchy is visually nested by category.</span>
           </div>
-          <ExportButtons tableId="quoteTable" filename="Quotes_Comparison" />
+          {/* <ExportButtons tableId="quoteTable" filename="Quotes_Comparison" /> */}
         </div>
         <div className="tablewrap">
           <table id="quoteTable">
